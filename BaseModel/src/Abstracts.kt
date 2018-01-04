@@ -22,6 +22,8 @@ interface Family<out E: Element> : Node, Sequence<E>
     override fun iterator(): Iterator<E>
         = elements.iterator()
 
+    fun byId(id: Int): E?
+
 }
 
 

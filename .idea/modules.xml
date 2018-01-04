@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaseModel/BaseModel.iml" filepath="$PROJECT_DIR$/BaseModel/BaseModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompleteModel/CompleteModel.iml" filepath="$PROJECT_DIR$/CompleteModel/CompleteModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModelGen/ModelGen.iml" filepath="$PROJECT_DIR$/ModelGen/ModelGen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
     </modules>
   </component>
 </project>

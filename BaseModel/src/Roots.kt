@@ -16,3 +16,9 @@ interface Project: Root
 
 }
 
+
+@Final
+interface Farm: Root
+{
+
+}
