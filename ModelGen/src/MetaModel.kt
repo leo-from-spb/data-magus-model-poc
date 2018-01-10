@@ -1,3 +1,5 @@
+@file:Suppress("conflicting_inherited_jvm_declarations")
+
 package lb.dm.meta
 
 import lb.util.ext.pluralize
@@ -7,10 +9,10 @@ import kotlin.reflect.KProperty
 
 sealed class MetaMatter (name: String)
 {
-    val name:  String = name.decapitalize()
-    val names: String = name.decapitalize().pluralize()
-    val Name:  String = name.capitalize()
-    val Names: String = name.capitalize().pluralize()
+    @JvmField val name:  String = name.decapitalize()
+    @JvmField val names: String = name.decapitalize().pluralize()
+    @JvmField val Name:  String = name.capitalize()
+    @JvmField val Names: String = name.capitalize().pluralize()
 
 }
 

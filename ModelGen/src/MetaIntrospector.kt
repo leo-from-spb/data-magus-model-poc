@@ -2,12 +2,8 @@ package lb.dm.meta
 
 import lb.dm.model.Family
 import kotlin.reflect.KClass
-import kotlin.collections.*
-import kotlin.reflect.*
-import kotlin.reflect.full.*
-
-import java.lang.System
-import java.util.*
+import kotlin.reflect.KType
+import kotlin.reflect.full.declaredMemberProperties
 
 
 internal object MetaIntrospector {
@@ -49,7 +45,7 @@ internal object MetaIntrospector {
         assert(klass !in klasses)
         val entity = MetaEntity(klass)
         klasses.put(klass, entity)
-
+        return entity
     }
 
 
